@@ -1,0 +1,63 @@
+body {
+    background: rgb(96, 91, 186);
+    background: linear-gradient(90deg, rgba(96, 91, 186, 1) 14%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 7px groove rgba(10, 24, 34, 0.55);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    border: 5px double #98b1c2;
+    border-radius: 12px;
+}
+
+.gif {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nom {
+    text-decoration: underline;
+}
+
+section {
+    display: grid;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.contacts {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.citation {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.experiences {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cursus {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
